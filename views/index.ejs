@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <title>Flowers shop</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <img class="icon_preview" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/64x64/plain/flower.png" title="Flower Icon 64x64" alt="Flower Icon 64x64" width="64" height="64" style="margin: 0 5px 0 0;">
+        <h1>Flowers shop</h1>
+      </div>
+
+      <div class="content">
+
+        <div class="left-column">
+          <div class="list-of-items" >
+          </div>
+         </div>
+
+         <div class="right-column">
+          <section id="chatroom">
+            <section id="feedback"></section>
+          </section>
+
+          <section id="input_zone">
+            <input id="message" class="vertical-align" type="text" />
+            <button id="send_message" class="vertical-align" type="button">Send</button>
+          </section>
+
+         </div>
+      </div>
+
+
+      <div>
+        @GRSU 2020
+      </div>
+    </div>
+    <script src="shop.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
